@@ -1,0 +1,22 @@
+1737739049251	geckodriver	INFO	Listening on 127.0.0.1:50973
+1737739052343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50974" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDERS~1\\AppData\\Local\\Temp\\rust_mozprofileGPA0Xb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737739052751	Marionette	INFO	Marionette enabled
+1737739052939	Marionette	INFO	Listening on port 50982
+WebDriver BiDi listening on ws://127.0.0.1:50974
+Read port: 50982
+1737739053120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50974/devtools/browser/ae2a9bfe-708c-4d13-a52f-b7056aef81d1
+JavaScript warning: https://www.amazon.com.br/, line 3488: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Xbox+Series+S&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 7418: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737739059728	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLGNB7vXxGOX9x8xQmE_Is3jnhRQTYs09a9rQebB8nYfzlw2ULjzxa0n8cHv0b59Dx7XEvp4LsA0wXZV4sOfchTRXfUxvyoSrbfrCMN2KVV3PcaxSxUchVXOja1ZQMepnhMJZkk0z14AetaaNJGoG7hDixZRT1ewSr5vduary055R6vFzk18MM2apHBy_NudySwlTLKScUBHTcWb4dYOzzzcsdqmsQhCd1GGnj58dHEyap_3aM7gi2a01uIGxdnHKVPCWdTg2THkYaoCGfUKGlb3g_JuZ9N7_zK5qXSpvbRnQ.-L-IsC411wSiyVKHBw4EMzvCdD4XO7z_2CO8L1V1ppA&dib_tag=se&keywords=Xbox+Series+S&qid=1737739058&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e, line 9456: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLGNB7vXxGOX9x8xQmE_Is3jnhRQTYs09a9rQebB8nYfzlw2ULjzxa0n8cHv0b59Dx7XEvp4LsA0wXZV4sOfchTRXfUxvyoSrbfrCMN2KVV3PcaxSxUchVXOja1ZQMepnhMJZkk0z14AetaaNJGoG7hDixZRT1ewSr5vduary055R6vFzk18MM2apHBy_NudySwlTLKScUBHTcWb4dYOzzzcsdqmsQhCd1GGnj58dHEyap_3aM7gi2a01uIGxdnHKVPCWdTg2THkYaoCGfUKGlb3g_JuZ9N7_zK5qXSpvbRnQ.-L-IsC411wSiyVKHBw4EMzvCdD4XO7z_2CO8L1V1ppA&dib_tag=se&keywords=Xbox+Series+S&qid=1737739058&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e, line 9404: Script terminated by timeout at:
+l@https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLGNB7vXxGOX9x8xQmE_Is3jnhRQTYs09a9rQebB8nYfzlw2ULjzxa0n8cHv0b59Dx7XEvp4LsA0wXZV4sOfchTRXfUxvyoSrbfrCMN2KVV3PcaxSxUchVXOja1ZQMepnhMJZkk0z14AetaaNJGoG7hDixZRT1ewSr5vduary055R6vFzk18MM2apHBy_NudySwlTLKScUBHTcWb4dYOzzzcsdqmsQhCd1GGnj58dHEyap_3aM7gi2a01uIGxdnHKVPCWdTg2THkYaoCGfUKGlb3g_JuZ9N7_zK5qXSpvbRnQ.-L-IsC411wSiyVKHBw4EMzvCdD4XO7z_2CO8L1V1ppA&dib_tag=se&keywords=Xbox+Series+S&qid=1737739058&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e:9404:262
+
+1737739146393	Marionette	INFO	Stopped listening on port 50982
+Dynamically enable window occlusion 1
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown

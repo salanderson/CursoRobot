@@ -1,0 +1,21 @@
+1737738097375	geckodriver	INFO	Listening on 127.0.0.1:49890
+1737738100467	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49891" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDERS~1\\AppData\\Local\\Temp\\rust_mozprofileu2LcWH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737738100871	Marionette	INFO	Marionette enabled
+1737738101064	Marionette	INFO	Listening on port 49900
+WebDriver BiDi listening on ws://127.0.0.1:49891
+Read port: 49900
+1737738101245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49891/devtools/browser/443fcfe7-6cc3-4a8f-8887-6d22c7405953
+JavaScript warning: https://www.amazon.com.br/, line 3492: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Xbox+Series+S&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 7256: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLGNB7vXxGOX9x8xQmE_Is3jnhRQTYs09a9rQebB8nYfzaXyFzZNN1pOkai8aFlfuiaRPErT2ezp0XxmioVj1NSkSzFA976NrswfTPe8EqiCp9Jxmhp59CUhm24tphYd1_nlM-E3nMXSFNfrns6Lc0Ju8jchorknBgmA7C7hVdMhNL1L5OKd-l628lpmvof2sova66idwh4ocWQnLjH1w1hoqyD_88_uV4k1f9UOKOMosEoFJKPmPqBlvLhDgdII3B1TRfUCtKHj5nsXQhmnrC0OwGA3D3q76YyrIGIhhfFYb.1QUJNeQ6F9I2b5HFNW5BeMCNy9Y8vf9SMGhgROMPzFo&dib_tag=se&keywords=Xbox+Series+S&qid=1737738106&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e, line 9475: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLGNB7vXxGOX9x8xQmE_Is3jnhRQTYs09a9rQebB8nYfzaXyFzZNN1pOkai8aFlfuiaRPErT2ezp0XxmioVj1NSkSzFA976NrswfTPe8EqiCp9Jxmhp59CUhm24tphYd1_nlM-E3nMXSFNfrns6Lc0Ju8jchorknBgmA7C7hVdMhNL1L5OKd-l628lpmvof2sova66idwh4ocWQnLjH1w1hoqyD_88_uV4k1f9UOKOMosEoFJKPmPqBlvLhDgdII3B1TRfUCtKHj5nsXQhmnrC0OwGA3D3q76YyrIGIhhfFYb.1QUJNeQ6F9I2b5HFNW5BeMCNy9Y8vf9SMGhgROMPzFo&dib_tag=se&keywords=Xbox+Series+S&qid=1737738106&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e, line 9423: Script terminated by timeout at:
+l@https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLGNB7vXxGOX9x8xQmE_Is3jnhRQTYs09a9rQebB8nYfzaXyFzZNN1pOkai8aFlfuiaRPErT2ezp0XxmioVj1NSkSzFA976NrswfTPe8EqiCp9Jxmhp59CUhm24tphYd1_nlM-E3nMXSFNfrns6Lc0Ju8jchorknBgmA7C7hVdMhNL1L5OKd-l628lpmvof2sova66idwh4ocWQnLjH1w1hoqyD_88_uV4k1f9UOKOMosEoFJKPmPqBlvLhDgdII3B1TRfUCtKHj5nsXQhmnrC0OwGA3D3q76YyrIGIhhfFYb.1QUJNeQ6F9I2b5HFNW5BeMCNy9Y8vf9SMGhgROMPzFo&dib_tag=se&keywords=Xbox+Series+S&qid=1737738106&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e:9423:262
+
+1737738134017	Marionette	INFO	Stopped listening on port 49900
+Dynamically enable window occlusion 1
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown

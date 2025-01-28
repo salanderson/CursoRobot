@@ -1,0 +1,130 @@
+==============================================================================
+2025-01-24 14:23:14.895370 - INFO - + START SUITE: Amazon Testes
+==============================================================================
+2025-01-24 14:23:15.267924 - INFO - +- START TEST: Caso de Teste 04 - Remover Produto do Carrinho
+------------------------------------------------------------------------------
+2025-01-24 14:23:15.269923 - INFO - +-- START SETUP: amazon_resources.Abrir o navegador [ ]
+2025-01-24 14:23:15.270923 - INFO - +--- START KEYWORD: SeleniumLibrary.Open Browser [ browser=firefox ]
+2025-01-24 14:23:15.271922 - INFO - Opening browser 'firefox' to base url 'None'.
+2025-01-24 14:23:21.706377 - DEBUG - Opened browser with session id 5e511b88-94b2-4bfb-909b-2d6d82353f5d.
+2025-01-24 14:23:21.706377 - INFO - +--- END KEYWORD: SeleniumLibrary.Open Browser (6.435454 s)
+2025-01-24 14:23:21.707377 - INFO - +--- START KEYWORD: SeleniumLibrary.Maximize Browser Window [ ]
+2025-01-24 14:23:21.965276 - INFO - +--- END KEYWORD: SeleniumLibrary.Maximize Browser Window (0.257899 s)
+2025-01-24 14:23:21.966274 - INFO - +-- END SETUP: amazon_resources.Abrir o navegador (6.696351 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 14:23:21.966274 - INFO - +-- START KEYWORD: amazon_resources.Acessar a home page do site Amazon.com.br [ ]
+2025-01-24 14:23:21.967274 - INFO - +--- START KEYWORD: SeleniumLibrary.Go To [ url=${URL} ]
+2025-01-24 14:23:21.967274 - INFO - Opening url 'http://www.amazon.com.br'
+2025-01-24 14:23:23.890493 - INFO - +--- END KEYWORD: SeleniumLibrary.Go To (1.923219 s)
+2025-01-24 14:23:23.890493 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ locator=${MENU_ELETRONICOS} ]
+2025-01-24 14:23:24.010418 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (0.119925 s)
+2025-01-24 14:23:24.010418 - INFO - +-- END KEYWORD: amazon_resources.Acessar a home page do site Amazon.com.br (2.044144 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 14:23:24.011418 - INFO - +-- START KEYWORD: amazon_resources.Digitar o nome de produto "Xbox Series S" no campo de pesquisa [ ]
+2025-01-24 14:23:24.012417 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ locator=${CLICAR_CAMPO_PESQUISA} | text=Xbox Series S ]
+2025-01-24 14:23:24.012417 - INFO - Typing text 'Xbox Series S' into text field '//input[contains(@type,'text')]'.
+2025-01-24 14:23:24.302238 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (0.289821 s)
+2025-01-24 14:23:24.302238 - INFO - +-- END KEYWORD: amazon_resources.Digitar o nome de produto "Xbox Series S" no campo de pesquisa (0.29082 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 14:23:24.303237 - INFO - +-- START KEYWORD: amazon_resources.Clicar no botão de pesquisa [ ]
+2025-01-24 14:23:24.304237 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Element [ locator=${CLICAR_PESQUISAR} ]
+2025-01-24 14:23:24.304237 - INFO - Clicking element '//input[contains(@type,'submit')]'.
+2025-01-24 14:23:32.663343 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Element (8.359106 s)
+2025-01-24 14:23:32.663343 - INFO - +-- END KEYWORD: amazon_resources.Clicar no botão de pesquisa (8.360106 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 14:23:32.664342 - INFO - +-- START KEYWORD: amazon_resources.Verificar o resultado da pesquisa se está listando o produto "Console Xbox Series S" [ ]
+2025-01-24 14:23:32.665341 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ locator=//img[contains(@alt,'${PRODUTO_LISTADO}')] ]
+2025-01-24 14:23:32.717309 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (0.051968 s)
+2025-01-24 14:23:32.717309 - INFO - +-- END KEYWORD: amazon_resources.Verificar o resultado da pesquisa se está listando o produto "Console Xbox Series S" (0.052967 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 14:23:32.717309 - INFO - +-- START KEYWORD: amazon_resources.Adicionar o produto "Console Xbox Series S" no carrinho [ ]
+2025-01-24 14:23:32.718308 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Image [ locator=${CLICAR_NO_PRODUTO} ]
+2025-01-24 14:23:32.718308 - INFO - Clicking image '//img[contains(@alt,'Console Xbox Series S')]'.
+2025-01-24 14:23:35.613999 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Image (2.895691 s)
+2025-01-24 14:23:35.614998 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Element [ locator=${ADD_CARINHO} ]
+2025-01-24 14:23:35.614998 - INFO - Clicking element '//input[@name='submit.add-to-cart']'.
+2025-01-24 14:23:36.179651 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Element (0.564653 s)
+2025-01-24 14:23:36.179651 - INFO - +-- END KEYWORD: amazon_resources.Adicionar o produto "Console Xbox Series S" no carrinho (3.462342 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 14:23:36.196637 - INFO - +-- START KEYWORD: amazon_resources.Verificar se o produto "Console Xbox Series S" foi adicionado com sucesso [ ]
+2025-01-24 14:23:36.196637 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ locator=//*[@id="sw-atc-details-single-container"] ]
+2025-01-24 14:23:40.178570 - WARN - Keyword 'Capture Page Screenshot' could not be run on failure: Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:448:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+2025-01-24 14:23:40.187564 - FAIL - NoSuchWindowException: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1879:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+2025-01-24 14:23:40.190562 - DEBUG - Traceback (most recent call last):
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\__init__.py", line 677, in run_keyword
+    return DynamicCore.run_keyword(self, name, args, kwargs)
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\robotlibcore.py", line 173, in run_keyword
+    return self.keywords[name](*args, **(kwargs or {}))
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\keywords\waiting.py", line 314, in wait_until_element_is_visible
+    self._wait_until(
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\keywords\waiting.py", line 426, in _wait_until
+    self._wait_until_worker(condition, timeout, error)
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\keywords\waiting.py", line 433, in _wait_until_worker
+    if condition():
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\keywords\waiting.py", line 315, in <lambda>
+    lambda: self.is_visible(locator),
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\base\context.py", line 111, in is_visible
+    element = self.find_element(locator, required=False)
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\base\context.py", line 82, in find_element
+    return self.element_finder.find(locator, tag, True, required, parent)
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\locators\elementfinder.py", line 93, in find
+    return self._find(locators[-1], tag, first_only, required, element)
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\locators\elementfinder.py", line 123, in _find
+    elements = strategy(criteria, tag, constraints, parent=parent or self.driver)
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\SeleniumLibrary\locators\elementfinder.py", line 181, in _find_by_xpath
+    parent.find_elements(By.XPATH, criteria), tag, constraints
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 792, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Anderson Saldanha\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1879:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+2025-01-24 14:23:40.190562 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (3.993925 s)
+2025-01-24 14:23:40.191561 - INFO - +-- END KEYWORD: amazon_resources.Verificar se o produto "Console Xbox Series S" foi adicionado com sucesso (3.994924 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 14:23:40.191561 - INFO - +-- START KEYWORD: amazon_resources.Remover o produto "Console Xbox Series S" do carrinho [ ]
+2025-01-24 14:23:40.191561 - INFO - +-- END KEYWORD: amazon_resources.Remover o produto "Console Xbox Series S" do carrinho (0.0 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-01-24 14:23:40.192562 - INFO - +-- START KEYWORD: amazon_resources.Verificar se o carrinho fica vazio [ ]
+2025-01-24 14:23:40.192562 - INFO - +-- END KEYWORD: amazon_resources.Verificar se o carrinho fica vazio (0.0 s)
+------------------------------------------------------------------------------
+2025-01-24 14:23:40.192562 - INFO - +- END TEST: Caso de Teste 04 - Remover Produto do Carrinho (24.924638 s)
+------------------------------------------------------------------------------
+2025-01-24 14:23:40.195560 - INFO - + END SUITE: Amazon Testes (25.30019 s)
+==============================================================================

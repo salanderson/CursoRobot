@@ -1,0 +1,24 @@
+1737745818060	geckodriver	INFO	Listening on 127.0.0.1:52770
+1737745821149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDERS~1\\AppData\\Local\\Temp\\rust_mozprofilewiPqqN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737745821546	Marionette	INFO	Marionette enabled
+1737745821736	Marionette	INFO	Listening on port 52780
+WebDriver BiDi listening on ws://127.0.0.1:52771
+Read port: 52780
+1737745821910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52771/devtools/browser/77143491-d498-4848-a342-f45a7a4a6981
+JavaScript warning: https://www.amazon.com.br/, line 3204: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Xbox+Series+S&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 7440: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLGNB7vXxGOX9x8xQmE_Is3jnhRQTYs09a9rQebB8nYfz6ugXSi_eRBABFywcqPdBCqTooQxZEyRDbuKsSEMWdhBXfUxvyoSrbfrCMN2KVV3P9Jxmhp59CUhm24tphYd1_rC28rY8yoc1HPNaJuu_2YpCStJXTgSFNOYsGENrHk6NZjLGSE_55erNIwDwNmtE9oVJXRK7B-0oIqN2qvw3pRgfWMw1wU12nDFKgJTYFNUzarC1jdhTMlCiN6yrCgmmtjZoHCOgPsQVoa7wf0slKkZ6kP87Cp6lqc-Qzo2oYPDe.xcFwTvynggQBubRefpDO_gysoHije9mTpBdnKSloe64&dib_tag=se&keywords=Xbox+Series+S&qid=1737745827&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e, line 9326: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: ({})
+JavaScript warning: https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3167: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/cart?ref_=sw_gtc, line 5541: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81+XFvxsb6L._RC|41cs7AB5ZPL.js_.js?AUIClients/InContextAuthBaseAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/cart?ref_=sw_gtc, line 5489: Script terminated by timeout at:
+l@https://www.amazon.com.br/cart?ref_=sw_gtc:5489:262
+
+1737745909092	Marionette	INFO	Stopped listening on port 52780
+Dynamically enable window occlusion 1

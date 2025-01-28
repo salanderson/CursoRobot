@@ -1,0 +1,20 @@
+1737735522088	geckodriver	INFO	Listening on 127.0.0.1:64298
+1737735525191	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDERS~1\\AppData\\Local\\Temp\\rust_mozprofilewp2zcm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737735525601	Marionette	INFO	Marionette enabled
+1737735525789	Marionette	INFO	Listening on port 64308
+WebDriver BiDi listening on ws://127.0.0.1:64299
+Read port: 64308
+1737735525966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64299/devtools/browser/65e2c7a7-25e8-4148-8576-a3e5ebb9f6dc
+JavaScript warning: https://www.amazon.com.br/, line 3200: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Xbox+Series+S&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 7476: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737735532217	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLHe26taYgbDacNoMn3WKa4jj_dKMhOzNgVtoKq5R2_NZGfEdFgy3ir3JDEJv1DYgNr6JA4oRmqZ7WMw5J1qoxzMSzFA976NrswfTPe8EqiCpcc4Yom8Xa_VQ8OXEf3vVGubTQZa6lQzY2LnZVWGiJ1m8jchorknBgmA7C7hVdMhNL1L5OKd-l628lpmvof2sova66idwh4ocWQnLjH1w1hoqyD_88_uV4k1f9UOKOMosEoFJKPmPqBlvLhDgdII3B1TRfUCtKHj5nsXQhmnrC0Pg_JuZ9N7_zK5qXSpvbRnQ.hhBDgdNrgdWZsjfBTUSSt6EwerqQM4OXeYdBTB1ptYo&dib_tag=se&keywords=Xbox+Series+S&qid=1737735530&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e, line 9414: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 393 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737735546300	Marionette	INFO	Stopped listening on port 64308
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown

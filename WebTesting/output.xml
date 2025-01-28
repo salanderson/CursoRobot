@@ -1,77 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.10.0rc2 on win32)" generated="2025-01-21T15:34:50.082802" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1.1 (Python 3.10.0rc2 on win32)" generated="2025-01-24T17:17:14.025041" rpa="false" schemaversion="5">
 <suite id="s1" name="Amazon Testes" source="c:\Users\Anderson Saldanha\Desktop\CursoRobotFramework\RobotFramework\WebTesting\amazon_testes.robot">
-<test id="s1-t1" name="Caso de Teste 01 - Acesso ao menu &quot;Eletrônicos&quot;" line="9">
+<test id="s1-t1" name="Caso de Teste 03 - Adicionar Produto no Carrinho" line="28">
 <kw name="Abrir o navegador" owner="amazon_resources" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-21T15:34:50.511771" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
-<arg>browser=firefox</arg>
+<msg time="2025-01-24T17:17:14.445091" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-21T15:34:50.510772" elapsed="6.578323"/>
+<status status="PASS" start="2025-01-24T17:17:14.445091" elapsed="2.102794"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-01-21T15:34:57.089095" elapsed="0.292287"/>
+<status status="PASS" start="2025-01-24T17:17:16.547885" elapsed="0.029960"/>
 </kw>
-<status status="PASS" start="2025-01-21T15:34:50.508773" elapsed="6.872609"/>
+<status status="PASS" start="2025-01-24T17:17:14.445091" elapsed="2.132754"/>
 </kw>
 <kw name="Acessar a home page do site Amazon.com.br" owner="amazon_resources">
 <kw name="Go To" owner="SeleniumLibrary">
-<msg time="2025-01-21T15:34:57.384380" level="INFO">Opening url 'http://www.amazon.com.br'</msg>
+<msg time="2025-01-24T17:17:16.577845" level="INFO">Opening url 'http://www.amazon.com.br'</msg>
 <arg>url=${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2025-01-21T15:34:57.383381" elapsed="1.448291"/>
+<status status="PASS" start="2025-01-24T17:17:16.577845" elapsed="0.843744"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2025-01-24T17:17:20.728128" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E63380D5+2992373]
+	(No symbol) [0x00007FF7E5FCBFD0]
+	(No symbol) [0x00007FF7E5E6590A]
+	(No symbol) [0x00007FF7E5E3F4F5]
+	(No symbol) [0x00007FF7E5EE63A7]
+	(No symbol) [0x00007FF7E5EFEE72]
+	(No symbol) [0x00007FF7E5EDF113]
+	(No symbol) [0x00007FF7E5EAA918]
+	(No symbol) [0x00007FF7E5EABA81]
+	GetHandleVerifier [0x00007FF7E6396A2D+3379789]
+	GetHandleVerifier [0x00007FF7E63AC32D+3468109]
+	GetHandleVerifier [0x00007FF7E63A0043+3418211]
+	GetHandleVerifier [0x00007FF7E612C78B+847787]
+	(No symbol) [0x00007FF7E5FD757F]
+	(No symbol) [0x00007FF7E5FD2FC4]
+	(No symbol) [0x00007FF7E5FD315D]
+	(No symbol) [0x00007FF7E5FC2979]
+	BaseThreadInitThunk [0x00007FFA78BC7374+20]
+	RtlUserThreadStart [0x00007FFA7A67CC91+33]
+</msg>
+<msg time="2025-01-24T17:17:20.728128" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E63380D5+2992373]
+	(No symbol) [0x00007FF7E5FCBFD0]
+	(No symbol) [0x00007FF7E5E6590A]
+	(No symbol) [0x00007FF7E5E3F4F5]
+	(No symbol) [0x00007FF7E5EE63A7]
+	(No symbol) [0x00007FF7E5EFEE72]
+	(No symbol) [0x00007FF7E5EDF113]
+	(No symbol) [0x00007FF7E5EAA918]
+	(No symbol) [0x00007FF7E5EABA81]
+	GetHandleVerifier [0x00007FF7E6396A2D+3379789]
+	GetHandleVerifier [0x00007FF7E63AC32D+3468109]
+	GetHandleVerifier [0x00007FF7E63A0043+3418211]
+	GetHandleVerifier [0x00007FF7E612C78B+847787]
+	(No symbol) [0x00007FF7E5FD757F]
+	(No symbol) [0x00007FF7E5FD2FC4]
+	(No symbol) [0x00007FF7E5FD315D]
+	(No symbol) [0x00007FF7E5FC2979]
+	BaseThreadInitThunk [0x00007FFA78BC7374+20]
+	RtlUserThreadStart [0x00007FFA7A67CC91+33]
+</msg>
 <arg>locator=${MENU_ELETRONICOS}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-01-21T15:34:58.832672" elapsed="0.489695"/>
+<status status="FAIL" start="2025-01-24T17:17:17.430410" elapsed="3.312080">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E63380D5+2992373]
+	(No symbol) [0x00007FF7E5FCBFD0]
+	(No symbol) [0x00007FF7E5E6590A]
+	(No symbol) [0x00007FF7E5E3F4F5]
+	(No symbol) [0x00007FF7E5EE63A7]
+	(No symbol) [0x00007FF7E5EFEE72]
+	(No symbol) [0x00007FF7E5EDF113]
+	(No symbol) [0x00007FF7E5EAA918]
+	(No symbol) [0x00007FF7E5EABA81]
+	GetHandleVerifier [0x00007FF7E6396A2D+3379789]
+	GetHandleVerifier [0x00007FF7E63AC32D+3468109]
+	GetHandleVerifier [0x00007FF7E63A0043+3418211]
+	GetHandleVerifier [0x00007FF7E612C78B+847787]
+	(No symbol) [0x00007FF7E5FD757F]
+	(No symbol) [0x00007FF7E5FD2FC4]
+	(No symbol) [0x00007FF7E5FD315D]
+	(No symbol) [0x00007FF7E5FC2979]
+	BaseThreadInitThunk [0x00007FFA78BC7374+20]
+	RtlUserThreadStart [0x00007FFA7A67CC91+33]
+</status>
 </kw>
-<status status="PASS" start="2025-01-21T15:34:57.382381" elapsed="1.939986"/>
+<status status="FAIL" start="2025-01-24T17:17:16.577845" elapsed="4.165701">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E63380D5+2992373]
+	(No symbol) [0x00007FF7E5FCBFD0]
+	(No symbol) [0x00007FF7E5E6590A]
+	(No symbol) [0x00007FF7E5E3F4F5]
+	(No symbol) [0x00007FF7E5EE63A7]
+	(No symbol) [0x00007FF7E5EFEE72]
+	(No symbol) [0x00007FF7E5EDF113]
+	(No symbol) [0x00007FF7E5EAA918]
+	(No symbol) [0x00007FF7E5EABA81]
+	GetHandleVerifier [0x00007FF7E6396A2D+3379789]
+	GetHandleVerifier [0x00007FF7E63AC32D+3468109]
+	GetHandleVerifier [0x00007FF7E63A0043+3418211]
+	GetHandleVerifier [0x00007FF7E612C78B+847787]
+	(No symbol) [0x00007FF7E5FD757F]
+	(No symbol) [0x00007FF7E5FD2FC4]
+	(No symbol) [0x00007FF7E5FD315D]
+	(No symbol) [0x00007FF7E5FC2979]
+	BaseThreadInitThunk [0x00007FFA78BC7374+20]
+	RtlUserThreadStart [0x00007FFA7A67CC91+33]
+</status>
 </kw>
-<kw name="Entrar no menu &quot;Eletrônicos&quot;" owner="amazon_resources">
-<kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-01-21T15:34:59.325367" level="INFO">Clicking element '//a[@href='/Eletronicos-e-Tecnologia/b/?ie=UTF8&amp;node=16209062011&amp;ref_=nav_cs_electronics'][contains(.,'Eletrônicos')]'.</msg>
-<arg>locator=${MENU_ELETRONICOS}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-21T15:34:59.324367" elapsed="2.758369"/>
+<kw name="Digitar o nome de produto &quot;Xbox Series S&quot; no campo de pesquisa" owner="amazon_resources">
+<status status="NOT RUN" start="2025-01-24T17:17:20.744547" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2025-01-21T15:34:59.323367" elapsed="2.759369"/>
+<kw name="Clicar no botão de pesquisa" owner="amazon_resources">
+<status status="NOT RUN" start="2025-01-24T17:17:20.745546" elapsed="0.000999"/>
 </kw>
-<kw name="Verificar se aparece a frase &quot;Eletrônicos e Tecnologia&quot;" owner="amazon_resources">
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<arg>text=${TEXTO_HEADER_ELETRONICOS}</arg>
-<doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2025-01-21T15:35:02.085735" elapsed="0.081949"/>
+<kw name="Verificar o resultado da pesquisa se está listando o produto &quot;Console Xbox Series S&quot;" owner="amazon_resources" source_name="Verificar o resultado da pesquisa se está listando o produto &quot;${PRODUTO_LISTADO}&quot;">
+<status status="NOT RUN" start="2025-01-24T17:17:20.747765" elapsed="0.000622"/>
 </kw>
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>locator=${HEADER_ELETRONICOS}</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-01-21T15:35:02.168683" elapsed="0.136915"/>
+<kw name="Adicionar o produto &quot;Console Xbox Series S&quot; no carrinho" owner="amazon_resources">
+<status status="NOT RUN" start="2025-01-24T17:17:20.752790" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2025-01-21T15:35:02.084736" elapsed="0.220862"/>
+<kw name="Verificar se o produto &quot;Console Xbox Series S&quot; foi adicionado com sucesso" owner="amazon_resources">
+<status status="NOT RUN" start="2025-01-24T17:17:20.753790" elapsed="0.000999"/>
 </kw>
-<doc>Esse teste verifica o menu Eletrônicos do site da Amazon.com.br
-e verifica a categoria Computadores e Informática</doc>
-<tag>categorias</tag>
-<tag>menus</tag>
-<status status="PASS" start="2025-01-21T15:34:50.507774" elapsed="11.798824"/>
+<doc>Esse teste verifica a adição de um produto no carrinho de compras</doc>
+<tag>adicionar_carrinho</tag>
+<status status="FAIL" start="2025-01-24T17:17:14.445091" elapsed="6.309698">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E63380D5+2992373]
+	(No symbol) [0x00007FF7E5FCBFD0]
+	(No symbol) [0x00007FF7E5E6590A]
+	(No symbol) [0x00007FF7E5E3F4F5]
+	(No symbol) [0x00007FF7E5EE63A7]
+	(No symbol) [0x00007FF7E5EFEE72]
+	(No symbol) [0x00007FF7E5EDF113]
+	(No symbol) [0x00007FF7E5EAA918]
+	(No symbol) [0x00007FF7E5EABA81]
+	GetHandleVerifier [0x00007FF7E6396A2D+3379789]
+	GetHandleVerifier [0x00007FF7E63AC32D+3468109]
+	GetHandleVerifier [0x00007FF7E63A0043+3418211]
+	GetHandleVerifier [0x00007FF7E612C78B+847787]
+	(No symbol) [0x00007FF7E5FD757F]
+	(No symbol) [0x00007FF7E5FD2FC4]
+	(No symbol) [0x00007FF7E5FD315D]
+	(No symbol) [0x00007FF7E5FC2979]
+	BaseThreadInitThunk [0x00007FFA78BC7374+20]
+	RtlUserThreadStart [0x00007FFA7A67CC91+33]
+</status>
 </test>
 <doc>Essa suite testa o site da Amazon.com.br</doc>
-<status status="PASS" start="2025-01-21T15:34:50.089796" elapsed="12.218801"/>
+<status status="FAIL" start="2025-01-24T17:17:14.032332" elapsed="6.725000"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">categorias</stat>
-<stat pass="1" fail="0" skip="0">menus</stat>
+<stat pass="0" fail="1" skip="0">adicionar_carrinho</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Amazon Testes">Amazon Testes</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="Amazon Testes">Amazon Testes</stat>
 </suite>
 </statistics>
 <errors>
+<msg time="2025-01-24T17:17:20.728128" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E63380D5+2992373]
+	(No symbol) [0x00007FF7E5FCBFD0]
+	(No symbol) [0x00007FF7E5E6590A]
+	(No symbol) [0x00007FF7E5E3F4F5]
+	(No symbol) [0x00007FF7E5EE63A7]
+	(No symbol) [0x00007FF7E5EFEE72]
+	(No symbol) [0x00007FF7E5EDF113]
+	(No symbol) [0x00007FF7E5EAA918]
+	(No symbol) [0x00007FF7E5EABA81]
+	GetHandleVerifier [0x00007FF7E6396A2D+3379789]
+	GetHandleVerifier [0x00007FF7E63AC32D+3468109]
+	GetHandleVerifier [0x00007FF7E63A0043+3418211]
+	GetHandleVerifier [0x00007FF7E612C78B+847787]
+	(No symbol) [0x00007FF7E5FD757F]
+	(No symbol) [0x00007FF7E5FD2FC4]
+	(No symbol) [0x00007FF7E5FD315D]
+	(No symbol) [0x00007FF7E5FC2979]
+	BaseThreadInitThunk [0x00007FFA78BC7374+20]
+	RtlUserThreadStart [0x00007FFA7A67CC91+33]
+</msg>
 </errors>
 </robot>

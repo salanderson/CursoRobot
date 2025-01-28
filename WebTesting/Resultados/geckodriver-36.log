@@ -1,0 +1,23 @@
+1737749699668	geckodriver	INFO	Listening on 127.0.0.1:54935
+1737749702759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54936" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDERS~1\\AppData\\Local\\Temp\\rust_mozprofilesAStT7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737749703185	Marionette	INFO	Marionette enabled
+1737749703376	Marionette	INFO	Listening on port 54947
+WebDriver BiDi listening on ws://127.0.0.1:54936
+Read port: 54947
+1737749703592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54936/devtools/browser/07d0c13f-8242-47aa-9b25-1259a43731d1
+JavaScript warning: https://www.amazon.com.br/, line 3341: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Xbox+Series+S&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 7469: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLDNzyKnIzGLwK1riKYB0qDV_s4wfMtL6wx0PVJ_GGkR0k91dDF9MKPeSaWlSB0bevsD_JxgHfZ6cDy5RuGJfIu1XfUxvyoSrbfrCMN2KVV3P9Jxmhp59CUhm24tphYd1_nlM-E3nMXSFNfrns6Lc0Ju8jchorknBgmA7C7hVdMhNSyDpc6DasdswUZ7IpiAnwxFH4B8_dF0yie8MqbjTKzIfWMw1wU12nDFKgJTYFNUzfZzjQtcGi_u3edxoSQO6Fq-iZ5La6qJaqm76DSQdhbOwGA3D3q76YyrIGIhhfFYb.t3_mZGMWKyq3XymJ8toAUtt43j5OgE94CV3asX6ncyw&dib_tag=se&keywords=Xbox+Series+S&qid=1737749709&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e, line 9402: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3167: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/gp/cart/view.html?ref_=nav_cart, line 5541: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://images-na.ssl-images-amazon.com/images/I/01uyz9BO3mL._RC|01xaIkvgwnL.js,010ghrVeGXL.js,011ZAUoBkGL.js,01pfcv4RKLL.js,01PG4SvsQ8L.js,01ikzOA7NuL.js,31QqrJgzuVL.js,01j2lSa3E+L.js,01Vh-RQZAKL.js,61V7VQdoGbL.js,31SW1O6kInL.js,014nW3bgAQL.js,0193gwRZmyL.js,11D0T7Yy6yL.js,71OgYNM8OoL.js,61O6YmvQLZL.js,61sGMMWLVCL.js_.js?AUIClients/SharedShoppingCartDesktopAsset#1041996-T1, line 933: TypeError: k is null
+JavaScript warning: https://www.amazon.com.br/gp/cart/view.html?ref_=nav_cart, line 3127: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81+XFvxsb6L._RC|41cs7AB5ZPL.js_.js?AUIClients/InContextAuthBaseAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -1,16 +1,21 @@
-1737484490937	geckodriver	INFO	Listening on 127.0.0.1:53814
-1737484494019	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDERS~1\\AppData\\Local\\Temp\\rust_mozprofilesxuXFP"
+1737731636072	geckodriver	INFO	Listening on 127.0.0.1:52430
+1737731639109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDERS~1\\AppData\\Local\\Temp\\rust_mozprofileM1d0Jl"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 Dynamically enable window occlusion 0
-1737484494447	Marionette	INFO	Marionette enabled
-1737484494654	Marionette	INFO	Listening on port 53822
-WebDriver BiDi listening on ws://127.0.0.1:53815
-Read port: 53822
-1737484494881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:53815/devtools/browser/0af064c4-e757-4804-b043-35785c534d90
-JavaScript warning: https://www.amazon.com.br/, line 3192: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics, line 5508: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737731639578	Marionette	INFO	Marionette enabled
+1737731639810	Marionette	INFO	Listening on port 52442
+WebDriver BiDi listening on ws://127.0.0.1:52431
+Read port: 52442
+1737731640074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52431/devtools/browser/b5372a0b-fae2-436d-ad5a-d46bc6b930cc
+JavaScript warning: https://www.amazon.com.br/, line 3194: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Xbox+Series+S&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 6976: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/Microsoft-RRS-00001-Xbox-Series-S/dp/B08G9J44ZN/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLDNzyKnIzGLwK1riKYB0qDXfdO5OPvX5DmQqg5FAJrfT5IOPkmmysMPw1jPGM_i3fL6JA4oRmqZ7WMw5J1qoxzMSzFA976NrswfTPe8EqiCp9Jxmhp59CUhm24tphYd1_rC28rY8yoc1HPNaJuu_2YpCStJXTgSFNOYsGENrHk6NL1L5OKd-l628lpmvof2sova66idwh4ocWQnLjH1w1hoqyD_88_uV4k1f9UOKOMosfZzjQtcGi_u3edxoSQO6Fvev4CiIK_t1aVpcyn9Lh4V6kP87Cp6lqc-Qzo2oYPDe.xsvrE3ePeBFnrHF0HtsvNu1FlU3Ie_PpD0LF-_Ph1Oo&dib_tag=se&keywords=Xbox+Series+S&qid=1737731645&sr=8-2&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147, line 8868: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 4633 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.

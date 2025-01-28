@@ -1,0 +1,35 @@
+1737732923067	geckodriver	INFO	Listening on 127.0.0.1:61079
+1737732926151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61080" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDERS~1\\AppData\\Local\\Temp\\rust_mozprofileXBv3Mm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737732926541	Marionette	INFO	Marionette enabled
+1737732926730	Marionette	INFO	Listening on port 61088
+WebDriver BiDi listening on ws://127.0.0.1:61080
+Read port: 61088
+1737732926931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61080/devtools/browser/2872aab9-d13a-4f8b-9a3a-7bd44a0d8f4f
+JavaScript warning: https://www.amazon.com.br/, line 3193: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Xbox+Series+S&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 7422: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/Microsoft-Console-Xbox-Series-S/dp/B08JN2VMGX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.GyKRq1t-ImRc1eNckjQrkCHSDwR-YBCS-Ta055gd-Y9XhdQbk_TpryllWx9_5LZ6SpMEO1AODE7fEzxVpTSgSSCO5x9qsI0mzBsYvY6yzFyV2Ri7sHD4KfR-v3nazyB3ZT-trB7tGSWI1il4RJpOLGNB7vXxGOX9x8xQmE_Is3ibneV_ABOOvH9sJfBpMHGaGfEdFgy3ir3JDEJv1DYgNr6JA4oRmqZ7WMw5J1qoxzMSzFA976NrswfTPe8EqiCp9Jxmhp59CUhm24tphYd1_ks_FMzFAx_7HUaolIh6sSg.y3WHiPbpUZ9lLz_gRYX5J55XXB5hAHiUJYNfptpOdeQ&dib_tag=se&keywords=Xbox+Series+S&qid=1737732931&sr=8-1&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e, line 9407: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+console.error: ({})
+JavaScript warning: https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 3167: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance, line 263: Script terminated by timeout at:
+t.time@https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance:263:1522
+n/this.stopAll@https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance:3159:17071
+@https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance:3159:18528
+D/<@https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance:263:686
+t.emit@https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance:263:1333
+D@https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance:263:5738
+D/<@https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance:263:686
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1737732960621	Marionette	INFO	Stopped listening on port 61088
+Dynamically enable window occlusion 1
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown
